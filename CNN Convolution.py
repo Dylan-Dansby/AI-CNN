@@ -39,9 +39,6 @@ def convolve2d(image,kernel):
 new_image = convolve2d(imgArr, convFilter)
 print('Shape of new_image:', new_image.shape)
 
-# plt.imread(new_image) # This line is incorrect, plt.imread expects a file path
-# plt.show(new_image) # This line is incorrect, plt.show expects a plot, not an image array
-
 
 
 plt.figure(figsize=(6, 6))
